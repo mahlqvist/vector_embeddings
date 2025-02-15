@@ -14,5 +14,9 @@ config/
 .vscode/* 
 .history
 
+# Databases
+chroma_storage_test
+*.sqlite3
+
 # Test Files
 test/
