@@ -102,13 +102,15 @@ Apple vector: 0.03484780713915825
 Fruit vector: 0.03668517619371414
 ```
 
-### Example 
+### Example in Action
 
-1. **Store:** "The sky is blue." 
-2. **Search:** "What color is the sky?"
-3. **Chroma will find** "The sky is blue." because their vectors are close.
+1. **Store** the sentence `"The sky is blue."` in a vector database.
+2. **Search** for vector similarity with the sentence `"What color is the sky?"`.
+3. **Chroma will find** `"The sky is blue."` because their vectors are close.
 
-
+```bash
+pip install chromadb
+``` 
 
 ```python
 import chromadb
