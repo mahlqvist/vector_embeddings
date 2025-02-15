@@ -5,6 +5,7 @@
 # Virtual Environments
 venv/
 env/
+.env
 
 # Configuration Files
 config/
